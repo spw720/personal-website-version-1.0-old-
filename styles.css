@@ -1,0 +1,183 @@
+body {
+    background:rgb(28,28,28);
+    color: rgb(209,209,209);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: black;
+    background-image: url("bg.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+header .logo a {
+    background-image: url(logo.png);
+    background-size: 80px;
+    display: inline-block;
+    width: 80px;
+    height: 52px;
+    text-indent: -999999px;
+}
+h1 {
+    text-align: center;
+    color: rgb(37,37,35);
+}
+h2 {
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: rgb(209,209,209);
+}
+.features {
+    background: rgb(31,31,31);
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#gif img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+#web {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 25px;
+    color: rgb(28,28,28);
+    background: rgb(122,139,146);/*rbg(31,31,31);*/
+}
+#resp {
+    
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.features div p {
+    background: rgb(10, 10, 10);
+    border-radius: 8px;
+    padding: 22px;
+    color: rgb(209,209,209);
+    text-align: center;
+    width: 600px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 20px;
+}
+p::first-line {
+    background: rgb(121, 139, 146);
+    color: rgb(10,10,10);
+    font-size: 25px;
+    width: 50px;
+}
+
+#outer {
+    width: 100%;
+    text-align: center;
+  }
+  
+#resume {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background: rgb(122,139,146);
+}
+.vl {
+    border-left: 2px solid rgb(209,209,209);
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#inner {
+    display: inline-block;
+}
+#outer2 {
+    width: 100%;
+    text-align: center;
+  }
+  
+#inner2 {
+    display: inline-block;
+}
+
+#gif img {
+    width: 500px;
+}
+
+.features div div .gif img {
+    border-radius: 10px;
+
+    margin-left: 0px;
+    margin-right: auto;
+
+    width: 250px;
+}
+
+.features div .selfie img {
+    border-radius: 10px;
+
+    margin-left: 0px;
+    margin-right: auto;
+
+    width: 200px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+A {
+    text-decoration: none;
+}
+A:visited {
+    color: rgb(37,37,35);
+}
+A:hover {
+    text-decoration: overline;
+    color: rgb(209,209,209);
+}
+A:active {
+    text-decoration: none;
+    color: rgb(209,209,209);
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(37,37,35);
+}
+a:hover {
+    text-decoration: overline;
+    color: rgb(209,209,209);
+}
+a:active {
+    text-decoration: none;
+    color: rgb(209,209,209);
+}
+footer {
+    background: black;
+    color:  rgb(209,209,209);
+    margin-top: 0%;
+    text-align: center;
+    padding: 10px 20px;
+}
